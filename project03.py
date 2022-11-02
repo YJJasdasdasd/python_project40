@@ -13,7 +13,7 @@ import os
 # # 저장한 음성파일 실행
 # playsound("sound.mp3")
 
-# 경로 이동
+# 현제 경로 이동
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # yo.txt파일을 열어 내용을 read_file변수에 입력
