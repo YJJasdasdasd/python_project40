@@ -1,4 +1,4 @@
-#  행을 분리(또는 종료)하는 데 사용되는 linesep을 사용하기 위해 os 임포트
+#  linesep를 임포트
 from os import linesep
 import googletrans
 
