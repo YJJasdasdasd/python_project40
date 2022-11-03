@@ -16,4 +16,4 @@ while True:
             break
         game_count = game_count + 1
     except:
-        print('에러가 발생했습니다. 숫자를 입력 하세요.')
+        print('에러발생 ㅋㅋ')
