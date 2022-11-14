@@ -6,7 +6,7 @@ try:
 
         with sr.Microphone() as source:
             print("음성을 입력하세요")
-            audio = r.listen(source)
+            audio = r.record(source, offset=1, duration=3)
         try:
             stt = r.recognize_google(audio, language='ko-KR')
             print("음성변환: " + stt)
